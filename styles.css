@@ -1,24 +1,28 @@
 :root {
-  --bg: #181818;
-  --fg: #f8f8f8;
+  --bg: #1e2129;
+  --fg: #bec1c6;
   --white: #ffffff;
-  --link: #2eaff5;
+  --red: #ff4e6f;
 }
 
 body {
   background-color: var(--bg);
   color: var(--fg);
-  font-family: Arial, sans-serif;
+  font-family: Inter, Roboto, Arial, sans-serif;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 a {
   background-color: var(--bg);
-  color: var(--link);
-  text-decoration: none;
+  color: var(--red);
 }
 
 a:hover {
-  background-color: var(--link);
+  background-color: var(--red);
   color: var(--bg);
   text-decoration: none;
 }
