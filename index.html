@@ -27,7 +27,7 @@
     <p>Unlike kana, it doesn't make sense to learn kanji or their readings in isolation. Learn words.</p>
     
     <h2>Basic Vocabulary</h2>
-    <p>Memorise ~1000 common words. I recommend you do this with <a href="https://apps.ankiweb.net/">Anki</a> and the <a href="https://github.com/donkuri/Kaishi/releases">Kaishi 1.5k</a> deck. You can learn how to use Anki with the <a href="https://docs.ankiweb.net/studying.html">Anki Manual</a>.</p>
+    <p>Memorise ~1000 common words. I recommend you do this with <a href="https://apps.ankiweb.net/">Anki</a> and the <a href="https://github.com/donkuri/Kaishi/releases">Kaishi 1.5k</a> deck. You can learn how to use Anki with the <a href="https://docs.ankiweb.net/studying.html">Anki Manual</a>. You can find the recommended Anki setup at the end of this guide.</p>
 
     <h2>Basic Grammar</h2>
     <p>Read through the <a href="https://yoku.bi/Introduction.html">Yokubi Grammar Guide</a>.</p>
@@ -62,7 +62,7 @@
     <p>How to remember words:</p>
     <ul>
         <li>Read more. After enough lookups, you will eventually remember the word.</li>
-        <li>If the word contains an unknown kanji, break it down into its components and see if you can relate their meaning to the main kanji with logic, association or a mnemonic.</li>
+        <li>Use Anki. You can download the <a href="https://github.com/donkuri/lapis">Lapis</a> notetype and read the instructions to set it up. Now whenever you look up a word in Yomitan you can make it into an Anki card (often referred to as "mining") by pressing a green + button in the top right. It's a good idea to only mine words that have unfamiliar kanji or unfamiliar kanji readings as those words will be the hardest to acquire by reading alone.</li>
     </ul>
 
     <p>How to spend more time reading:</p>
@@ -73,7 +73,7 @@
     
     <h2>Read!</h2>
     <p>Read whatever you like!</p> 
-    <p>For visual novels, you can use <a href="https://github.com/Artikash/Textractor/">Textractor</a> (or <a href="https://github.com/0xDC00/agent">Agent</a>) and a clipboard inserter {<a href="https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/">Firefox</a>, <a href="https://chromewebstore.google.com/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm">Chrome</a>} to extract text to a <a href="https://kuuuube.github.io/texthooker/index.html">texthooking page</a> (or <a href="https://github.com/rampaa/JL">JL</a>).</p>
+    <p>For visual novels, you can use a texthooker (<a href="https://github.com/0xDC00/agent">Agent</a> or <a href="https://github.com/Artikash/Textractor/">Textractor</a>) and a clipboard inserter (<a href="https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/">Firefox</a>, <a href="https://chromewebstore.google.com/detail/clipboard-inserter/deahejllghicakhplliloeheabddjajm">Chrome</a>) to extract text to a <a href="https://kuuuube.github.io/texthooker/index.html">texthooking page</a> (or <a href="https://github.com/rampaa/JL">JL</a>).</p>
     <p>You can read light novels (as EPUB or HTMLZ files) with <a href="https://reader.ttsu.app">ッツ Reader</a>.</p>
     <p>You can read manga (with Yomitan-able HTML text) at the <a href="https://catalog.mokuro.moe/">Mokuro Catalog</a>. For manga not in the catalog, you can use <a href="https://github.com/kha-white/mokuro">mokuro</a> or <a href="https://github.com/matt-m-o/YomiNinja">YomiNinja</a>.</p>
     <p>If you're unsure on what to read, I'd suggest <a href="https://tsukiweb.holofield.fr/title">月姫 (Tsukihime)</a> as an easy visual novel that you can read for free in your browser. You can change the language to Japanese via Config > Advanced > Language > 日本語.</p>
@@ -94,12 +94,28 @@
     <p>To be able to look up unknown words within monolingual definitions, go to Yomitan settings > Popup Behavior and enable "Allow scanning popup content".</p>
     <p>You can find more dictionaries in <a href="https://github.com/MarvNC/yomitan-dictionaries">Marv's collection</a>.</p>
 
-
-    <h2>Further Grammar Study</h2>
-    <p>You will eventually acquire all the grammar knowledge you'll ever need just by reading more. However, if you'd like to do some dedicated study, you can use:</p>
+    <h2>Recommended Anki Setup</h2>
+    <p>Addons:</p>
     <ul>
-        <li><a href="https://gohoneko.neocities.org/grammar/masterreference">Japanese Grammar Master Reference</a></li>
-        <li><a href="https://nihongokyoshi-net.com/jlpt-grammars/">Nihongokyoshi</a> (monolingual)</li>
+        <li><a href="https://ankiweb.net/shared/info/2055492159">AnkiConnect</a>, required for Yomitan-Anki integration.</li>
+        <li><a href="https://ankiweb.net/shared/info/876946123">Pass/Fail</a>, changes the buttons from Again/Hard/Good/Easy to Fail/Pass. This reduces mental strain and helps FSRS perform better.</li>
+        <li><a href="https://ankiweb.net/shared/info/1046608507">Speed Focus Mode</a>, adds a time limit for answering cards before automatically failing. While this sounds like it would make things difficult and stressful, it counterintuitively makes review sessions quicker and more focused.</li>
+    </ul>
+    <p>Deck Options:</p>
+    <ul>
+        <li>New cards/day: 20</li>
+        <li>Maximum reviews/day: 9999</li>
+        <li>Learning steps: 2m 4m</li>
+        <li>Relearning steps: 1m 5m</li>
+        <li>New/review order: Show after reviews</li>
+        <li>FSRS: on</li>
+        <li>Desired retention: 85%</li>
+    </ul>
+    <p>Speed Focus Mode Options:</p>
+    <ul>
+        <li>Automatically play alert after 0 seconds.</li>
+        <li>Automatically show answer after 5 seconds.</li>
+        <li>Automatically rate again after 5 seconds.</li>
     </ul>
   </div>
 </body>
