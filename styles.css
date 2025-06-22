@@ -58,3 +58,7 @@ li {
 li:last-child {
   margin-bottom: 0;
 }
+
+.faq-pair {
+  margin-bottom: 1em;
+}
